@@ -406,12 +406,6 @@ body {
   color: #666;
 }
 
-@media all and (display-mode: standalone) {
-  body {
-    background-color: yellow;
-  }
-}
-
 @media (max-width: 450px) {
   .weather-card .date,
   .weather-card .description {
