@@ -406,9 +406,11 @@ body {
   color: #666;
 }
 
-/**
- * Media query to adjust size of content for small screens
- */
+@media all and (display-mode: standalone) {
+  body {
+    background-color: yellow;
+  }
+}
 
 @media (max-width: 450px) {
   .weather-card .date,
